@@ -1,0 +1,200 @@
+<?php 
+  session_start();
+  include"blocks/bd.php";
+ ?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Главная</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="alternate" hreflang="x-default" href="https://speechnotes.co/" />
+  <link rel="alternate" hreflang="en" href="https://speechnotes.co/" />
+  <link rel="alternate" hreflang="de" href="https://speechnotes.co/de/" />
+  <link rel="alternate" hreflang="es" href="https://speechnotes.co/es/" />
+  <link rel="alternate" hreflang="fr" href="https://speechnotes.co/fr/" />
+  <link rel="alternate" hreflang="it" href="https://speechnotes.co/it/" />
+  <link rel="alternate" hreflang="ja" href="https://speechnotes.co/ja/" />
+  <link rel="alternate" hreflang="pt" href="https://speechnotes.co/pt/" />
+  <link rel="alternate" hreflang="ar" href="https://speechnotes.co/ar/" />
+  <link rel="alternate" hreflang="ru" href="https://speechnotes.co/ru/" />
+  <link rel="alternate" hreflang="zh" href="https://speechnotes.co/zh/" />
+</head>
+<body>
+
+  <form class="" action="otpravka_test.php" method="POST">
+    <div class="form_block form-control">
+<h5>Число существительных</h5>
+<div>
+  <p>1. Образуйте форму множественного числа существительного leaf.</p>
+   <div>
+    <input  type="radio" name="d" value=""> a) leaves
+   </div>
+   <div>
+    <input  type="radio" name="d" value=""> b) leavs
+   </div>
+   <div>
+    <input  type="radio" name="d" value=""> c) leafs
+   </div>
+   <div>
+    <input  type="radio" name="d" value=""> d) leafes
+   </div>
+</div>
+<div>
+  <p>2. Какое из существительных не образует множественное число при помощи окончания -es?</p>
+   <div>
+    <input  type="radio" name="b" value=""> a) city
+   </div>
+   <div>
+    <input  type="radio" name="b" value=""> b) key
+   </div>
+   <div>
+    <input  type="radio" name="b" value=""> c) box
+   </div>
+   <div>
+    <input  type="radio" name="b" value=""> d) dish
+   </div>
+</div>
+<div>
+  <p>3. Образуйте верную форму множественного числа существительного potato.</p>
+   <div>
+    <input  type="radio" name="c" value=""> a) potatos
+   </div>
+   <div>
+    <input  type="radio" name="c" value=""> b) potats
+   </div>
+   <div>
+    <input  type="radio" name="c" value=""> c) potatoes
+   </div>
+   <div>
+    <input  type="radio" name="c" value=""> d) potates
+   </div>
+</div>
+<div>
+  <p>4. Какое из существительных образует множественное число путем изменения согласной f?</p>
+   <div>
+    <input  type="radio" name="a" value=""> a) chief
+   </div>
+   <div>
+    <input  type="radio" name="a" value=""> b) roof
+   </div>
+   <div>
+    <input  type="radio" name="a" value=""> c) safe
+   </div>
+   <div>
+    <input  type="radio" name="a" value=""> d) wife
+   </div>
+</div>
+<div>
+  <p>5. Множественное число какого из существительных образовано неправильно?</p>
+   <div>
+    <input  type="radio" name="i" value=""> a) businessmen
+   </div>
+   <div>
+    <input  type="radio" name="i" value=""> b) teeth
+   </div>
+   <div>
+    <input  type="radio" name="i" value=""> c) mouses
+   </div>
+   <div>
+    <input  type="radio" name="i" value=""> d) foxes
+   </div>
+</div>
+<div>
+  <p>6. Какое из существительных не имеет особой формы множественного числа?</p>
+   <div>
+    <input  type="radio" name="f" value=""> a) foot
+   </div>
+   <div>
+    <input  type="radio" name="f" value=""> b) ear
+   </div>
+   <div>
+    <input  type="radio" name="f" value=""> c) deer
+   </div>
+   <div>
+    <input  type="radio" name="f" value=""> d) child
+   </div>
+</div>
+<div>
+  <p>7. В каком из примеров приведено существительное в единственном числе?</p>
+   <div>
+    <input  type="radio" name="g" value=""> a) women
+   </div>
+   <div>
+    <input  type="radio" name="g" value=""> b) garden
+   </div>
+   <div>
+    <input  type="radio" name="g" value=""> c) oxen
+   </div>
+   <div>
+    <input  type="radio" name="g" value=""> d) brethren
+   </div>
+</div>
+<div>
+  <p>8. Какое существительное образует множественное число при помощи окончания -s?</p>
+    <input  type="radio" name="h" value=""> a) basis
+   </div>
+   <div>
+    <input  type="radio" name="h" value=""> b) datum
+   </div>
+   <div>
+    <input  type="radio" name="h" value=""> c) piano
+   </div>
+   <div>
+    <input  type="radio" name="h" value=""> d) phenomenon
+   </div>
+</div>
+<div>
+  <p>9. Укажите существительное с одинаковой формой единственного и множественного числа.</p>
+   <div>
+    <input  type="radio" name="e" value=""> a) ship
+   </div>
+   <div>
+    <input  type="radio" name="e" value=""> b) sleep
+   </div>
+   <div>
+    <input  type="radio" name="e" value=""> c) penny
+   </div>
+   <div>
+    <input  type="radio" name="e" value=""> d) sheep
+   </div>
+</div>
+<div>
+  <p>10. Какое существительное в английском языке употребляется как в единственном, так и во множественном числе?</p>
+   <div>
+    <input  type="radio" name="j" value=""> a) trousers
+   </div>
+   <div>
+    <input  type="radio" name="j" value=""> b) scissors
+   </div>
+   <div>
+    <input  type="radio" name="j" value=""> c) gates
+   </div>
+   <div>
+    <input  type="radio" name="j" value=""> d) clothes
+   </div>
+</div>
+  <input class="btn btn-success button form_element" type="submit" name="submit" value="Отправить тест">
+  </div>
+</form>
+
+
+
+
+
+  <script language="JavaScript" src="http://ваш_домен/audio/audio-player.js"></script>
+  <object type="application/x-shockwave-flash" data="http://ваш_домен/audio/player.swf" id="audioplayer1" height="25" width="290">
+  <param name="movie" value="http://ваш_домен/audio/player.swf">
+  <param name="FlashVars" value="playerID=1&amp;soundFile=http://ваш_домен/audio/название_аудио_файла.mp3">
+  <param name="quality" value="high">
+  <param name="menu" value="false">
+  <param name="wmode" value="transparent">
+  </object>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
